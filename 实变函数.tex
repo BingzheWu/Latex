@@ -1,0 +1,36 @@
+
+\maketitle\documentclass[10pt,a4paper]{article}
+\usepackage{CJK}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\newtheorem{thm}{定理}
+\newtheorem{prove}{证明}
+\begin{CJK}{UTF8}{gbsn}
+\author{吴秉哲}
+\title{实变函数证明合集}
+\begin{document}
+\section{集合与点集}
+\begin{thm}
+$[0,1]={x:0\leqslant x \leqslant 1}$不是可数集.
+\end{thm}
+\begin{prove}
+只需讨论$(0,1]$,为此，采用二进制小数表示法：
+\[
+x=\sum^{\infty}_{n=1} \dfrac{a_n}{2^n}
+\]
+其中$a_n$等于0或1，并在表达式中存在无穷多个$a_n$等于1.显然
+，$(0,1]$与全体二进制数一一对应.
+
+若在上述表示中，把$a_n$=0的项舍去，则得到$x=\sum^{\infty}_{i=1}2^{-n_i},$这里的${n_i}$是严格上升的自然数数列.再令
+$k_1=n_1,k_i=n_i-n_{i-1},i=2,3...,$
+则$k_i$是自然数子列.把由自然数构成的序列的全体记为$\wp$，则$\wp$
+与$(0,1]$一一对应.
+
+现在假定$(0,1]$是可数的，则$\wp$是可数的，不妨将其全体排列如下：
+
+\end{prove}
+\end{CJK}
+\end{document}

@@ -1,0 +1,127 @@
+\part{一些准备}
+\pagestyle{empty}
+\section{概率论方面的一些概念}
+\begin{define}
+($\sigma$field)设$\Omega$是试验S的样本空间，用F表示$\Omega$
+的某些子集构成的集合，如果$\mathscr{F}$满足:
+\begin{enumerate}
+\item $\Omega \in \mathscr{F}$；
+\item 若$A\in \mathscr{F}$,则$\overline{A}\in \mathscr{F}$
+\item 若$A_j\in \mathscr{F}$,则$\displaystyle\bigcup _{n=1}^{\infty}A_j\in \mathscr{F}$
+\end{enumerate}
+就称$\mathscr{F}$是$\Omega$的事件域或$\sigma$域，称$\mathscr{F}$中的元素为事件，
+($\Omega,\mathscr{F}$)为可测空间
+\end{define}
+\begin{define}
+(probability space)设($\Omega,\mathscr{F}$)为可测空间，P是定义在
+$\mathscr{F}$上的函数，如果P满足下列条件：
+\begin{enumerate}
+\item 非负性：
+对于$A\in \mathscr{F},P(A)\geq 0$
+\item 完全性：
+$P(\Omega)=1$;
+
+\item 可列可加性:
+对于$\mathscr{F}$中互不相容的事件$A_1,A_2,\cdots$,
+\[
+P( \bigcup^{\infty}_{j=1}A_j)=\sum_{j=1}^{\infty}P(A_j)
+\]
+
+\end{enumerate}
+就称P为$\mathscr{F}$上的概率测度，简称概率，称$(\Omega,\mathscr{F},P)$为概率空间
+\end{define}
+\begin{define}
+(conditionnal probability)Probability of an event A given that an event B has happened
+ is denoted by $ P(A|B)$ and is computed
+by
+\[
+P(A|B)=\dfrac{P(A\cap B)}{P(B)},P(B)>0
+\]
+Event A is said to be independent from event B if:
+\[
+P(A|B)=P(A)
+\]
+\end{define}
+\begin{define}
+(Random Variables)设$(\Omega,\mathscr{F})$是可测空间
+，如果$\Omega$上的函数$X(\omega)$满足：对任何实数x，
+\[
+\{\omega|X(\omega)\leqslant x\}\in \mathscr{F}
+\]
+\end{define}
+\begin{define}
+(随机变量的独立性)设$X_1,X_2,\cdots$是随机变量.
+\begin{enumerate}
+\item
+如果对于任何实数$x_1,x_2,\cdots,x_n$,
+\begin{equation}
+\begin{split}
+& P(X_1\leqslant x_1,X_2\leqslant x_2,\cdots ,X_n\leqslant x_n)\\
+& =P(X_1\leqslant x_1)P(X_2\leqslant x_2)\cdots P
+(X_n\leqslant x_n)
+\end{split}
+\end{equation}
+则称随机变量$X_1,X_2,\cdots,X_n$相互独立
+\item 如果对任何n，$X_1,X_2,\cdots,X_n$相互独立，则称随机变量序列$\{X_i\}$为独立序列
+\end{enumerate}
+\end{define}
+
+\begin{define}
+(probability distribution function，PDF)对随机变量X，则称函数
+\[
+F(x)=P(X\leqslant x)
+\]
+为X的概率分布函数。有如下两条性质：
+\begin{enumerate}
+\item F单调不减右连续；
+\item $F(\infty)=1,F(-\infty)=0$
+\end{enumerate}
+\end{define}
+\begin{define}
+(pdf,probability density function)设X为随机变量，如果存在非负函数$f(x)$使得对
+任何a<b，
+\[P(a<X\leqslant b)=\int_{a}^{b}f(x)dx\]
+就称X是连续性随机变量，称$f(x)$为X的概率密度函数
+\end{define}
+\begin{define}
+
+\begin{enumerate}
+
+
+\item (mean,expection) $\langle X \rangle=E(x)=\int_{-\infty}^{-\infty}xf(x)dx$
+\item (Variance) $Var(X)=E(X-\langle X\rangle)^2=EX^2-(EX)^2$
+\item (k-th moment) $m_k(X)=E(X^k)$
+\end{enumerate}
+\end{define}
+\begin{define}
+\begin{enumerate}
+\item (joint distribution of) Let X and Y be two random variables. The joint distribution of
+X and Y is defined by:
+\[F_{XY}(x,y)=P(X\leqslant x,Y\leqslant y)\]
+\item (joint density) defined by:
+\[f_{XY}(x,y)=\dfrac{\partial^2}{\partial x\partial y}F(x,y)\]
+\item Notice that marginal distributions are：
+\[F(x)=F_{XY}(x,\infty)\]
+\item X and Y are independent identically distributed (i.i.d.) if
+they are independent and have the same distribution.
+\end{enumerate}
+\end{define}
+\begin{define}
+\begin{enumerate}
+\item (covariance)The covariance $C_{XY}$ of X and Y is defined be :
+\[C_{XY}=E(X-E(X))E(Y-E(Y)) \]
+\item The correlation coefficient of X and Y is defined be
+\[\rho_{XY}=\dfrac{C_{XY}}{\sigma_x\sigma_y}\]
+\item 
+X and Y are uncorrelated if:
+\[C_{XY}=0,or E(XY)=EXEY\]
+
+\end{enumerate}
+\end{define}
+\begin{define}
+随机变量函数函数的分布函数
+
+设$\eta (\xi)$为随机变量$\xi$的函数，$F(x)$为$\xi$的分布函数，则$
+\eta$的分布函数为$G(x)=\int_{\eta(y)<x}dF(y)$(由此定义可以直接得到阅读的文献中Chapter2中的Hilbert公式)
+\end{define}
+

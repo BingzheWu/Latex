@@ -484,7 +484,78 @@ $$
 题目给出一个方程，要求用给出的两种不动点格式以及牛顿法求方程的数值解，并在理论上分析两种不动点格式是否局部收敛，以及如果收敛
 收敛速度如何，最后根据实际上机结果验证理论分析的结果。
 \subsection{问题理论分析及解决方案}
+先推导两种不动点格式是否收敛，题目所给的两种不动点格式分别如下：
+\begin{enumerate}
+	\item 不动点格式1
+	\[x_{k+1}=arccos(-1//(1+e^{-2x_k})),k=01,2,\cdots \]
+	\item 不动点格式2
+	\[x_{k+1}=0.5\ln(-1/(1+1/cosx_k))\]
+\end{enumerate}
+容易得出格式1与2都对应方程的一个不动点问题。然后下面证明,格式1收敛，格式2不收敛。
+
+先证明格式1收敛，设$f(x)=arcos(-1/(1+e^{-2x}))$,则有$|f'(x)=|$
 \subsection{计算成果分析}
+下面列出三种格式的结果，并与其与Python的Scipy包计算的结果进行对比，做出每种方法的误差，具体内容如下:
+\begin{center}
+    \begin{longtable}{|c|c|c|}
+        \caption{不动点格式1}\\
+        \hline
+        迭代次数& 相对误差\\
+        \hline
+        1& 0.00516545\\
+        \hline
+        2& 0.000336909\\
+        \hline
+        3& 2.19217e-05\\
+        \hline
+        4& 1.42615e-06\\
+        \hline
+        5& 9.27776e-08\\
+        \hline
+        6& 6.03318e-09\\
+        \hline
+    \end{longtable}
+\end{center}
+\begin{center}
+    \begin{longtable}{|c|c|c|}
+        \caption{不动点格式2}\\
+        \hline
+        迭代次数& 相对误差\\
+        \hline
+        1& 9.27776e-08\\
+        \hline
+        2& 1.42615e-06\\
+        \hline
+        3& 2.19217e-05\\
+        \hline
+        4& 0.000336909\\
+        \hline
+        5& 0.00516545\\
+        \hline
+        6& 0.0764212\\
+        \hline        
+    \end{longtable}
+\end{center}
+\begin{center}
+    \begin{longtable}{|c|c|c|}
+        \caption{牛顿法}\\
+        \hline
+        迭代次数& 相对误差\\
+        \hline
+        1& 3.07642\\
+        \hline
+        2& 0.0210937\\
+        \hline
+        3& 0.00268953\\
+        \hline
+        4& 5.63034e-05\\
+        \hline
+        5& 2.57304e-08\\
+        \hline
+        6& 2.75335e-12\\
+        \hline
+    \end{longtable}
+\end{center}
 \end{document}
 
 

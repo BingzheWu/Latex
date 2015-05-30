@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Debian) (preloaded format=xelatex 2015.5.16)  30 MAY 2015 08:04
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Debian) (preloaded format=xelatex 2015.5.16)  30 MAY 2015 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,7 +1029,21 @@ LaTeX Info: Redefining \citenum on input line 708.
 . and font adjustment code:
 . 
 .................................................
-(./欧洲浪漫主义时期的音乐.aux)
+(./欧洲浪漫主义时期的音乐.aux
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+? 
+)
 \openout1 = `欧洲浪漫主义时期的音乐.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -1129,25 +1143,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (./欧洲浪漫主义时期的音乐.bbl
 
 LaTeX Font Warning: Font shape `EU1/SimHei(0)/m/it' undefined
-(Font)              using `EU1/SimHei(0)/m/n' instead on input line 5.
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 4.
 
-)
+[2])
 
 LaTeX Font Warning: Font shape `EU1/SimHei(0)/m/sl' undefined
-(Font)              using `EU1/SimHei(0)/m/n' instead on input line 51.
+(Font)              using `EU1/SimHei(0)/m/n' instead on input line 60.
 
-[2] (./欧洲浪漫主义时期的音乐.aux)
+[3] (./欧洲浪漫主义时期的音乐.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19110 strings out of 493733
- 389463 string characters out of 6147945
- 411681 words of memory out of 5000000
- 22243 multiletter control sequences out of 15000+600000
+ 19114 strings out of 493733
+ 389520 string characters out of 6147945
+ 413681 words of memory out of 5000000
+ 22247 multiletter control sequences out of 15000+600000
  10144 words of font info for 60 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 63i,7n,61p,10379b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,7n,61p,10379b,243s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 欧洲浪漫主义时期的音乐.pdf (2 pages).
+Output written on 欧洲浪漫主义时期的音乐.pdf (3 pages).

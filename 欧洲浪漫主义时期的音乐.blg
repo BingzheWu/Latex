@@ -3,44 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: 欧洲浪漫主义时期的音乐.aux
 The style file: ieeetr.bst
 Database file #1: sample.bib.bib
-You've used 5 entries,
+Warning--empty journal in 于润洋
+Warning--empty year in 于润洋
+Warning--empty journal in 王晶
+You've used 10 entries,
             1876 wiz_defined-function locations,
-            496 strings with 3792 characters,
-and the built_in function-call counts, 681 in all, are:
-= -- 61
-> -- 20
+            512 strings with 4140 characters,
+and the built_in function-call counts, 1350 in all, are:
+= -- 119
+> -- 40
 < -- 0
-+ -- 10
-- -- 5
-* -- 25
-:= -- 107
-add.period$ -- 8
-call.type$ -- 5
-change.case$ -- 1
++ -- 20
+- -- 10
+* -- 59
+:= -- 214
+add.period$ -- 14
+call.type$ -- 10
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 39
-empty$ -- 90
-format.name$ -- 5
-if$ -- 168
+cite$ -- 13
+duplicate$ -- 81
+empty$ -- 175
+format.name$ -- 10
+if$ -- 327
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 6
-newline$ -- 21
-num.names$ -- 5
-pop$ -- 27
+int.to.str$ -- 10
+missing$ -- 12
+newline$ -- 38
+num.names$ -- 10
+pop$ -- 54
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 8
+skip$ -- 14
 stack$ -- 0
 substring$ -- 0
-swap$ -- 5
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 5
-width$ -- 6
-write$ -- 43
+warning$ -- 3
+while$ -- 10
+width$ -- 12
+write$ -- 83
+(There were 3 warnings)

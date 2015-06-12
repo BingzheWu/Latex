@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Debian) (preloaded format=xelatex 2015.5.16)  6 JUN 2015 15:33
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/Debian) (preloaded format=xelatex 2015.5.16)  12 JUN 2015 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,18 +1150,42 @@ File: singal0.png Graphic file (type QTm)
 
 <use  "singal0.png" >
 File: singal1.png Graphic file (type QTm)
- <use  "singal1.png" > [5] [6] (./homework3.aux)
+ <use  "singal1.png" > [5] [6]
+File: 0.1h.png Graphic file (type QTm)
+ <use  "0.1h.png" >
+File: 0.01h.png Graphic file (type QTm)
+
+<use  "0.01h.png" >
+File: 0.001h.png Graphic file (type QTm)
+ <use  "0.001h.png" > [7] [8]
+File: lorenz2d1.png Graphic file (type QTm)
+ <use  "lorenz2d1.png" >
+File: lorenz2d2.png Graphic file (type QTm)
+
+<use  "lorenz2d2.png" >
+File: lorenz2d3.png Graphic file (type QTm)
+ <use  "lorenz2d3.png" > [9]
+File: lorenzh111.png Graphic file (type QTm)
+ <use  "lorenzh111.png" >
+[10] [11]
+File: 6.5.png Graphic file (type QTm)
+ <use  "6.5.png" >
+File: 6.5.3.png Graphic file (type QTm)
+ <use  "6.5.3.png" >
+File: 6.5.4.png Graphic file (type QTm)
+ <use  "6.5.4.png" > [12]
+[13] (./homework3.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19153 strings out of 493733
- 385748 string characters out of 6147945
+ 19192 strings out of 493733
+ 386596 string characters out of 6147945
  411833 words of memory out of 5000000
- 22266 multiletter control sequences out of 15000+600000
+ 22293 multiletter control sequences out of 15000+600000
  15665 words of font info for 78 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  63i,6n,61p,10377b,237s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on homework3.pdf (6 pages).
+Output written on homework3.pdf (13 pages).
